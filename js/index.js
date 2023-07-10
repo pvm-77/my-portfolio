@@ -11,7 +11,8 @@
 //     logo.src = '../img/menu.svg';
 //   }
 // });
-
+const container = document.getElementById('profile-pic-container');
+console.log('container is ,',container)
 const toggleIcon = document.getElementById('navbar-toggle');
 const mobileMenuContainer = document.getElementById('navbar-list-mobile-container')
 let isOpen = false;
