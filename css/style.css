@@ -673,7 +673,7 @@ h6 {
 }
 
 .designation-container {
-    background-color: #151030;
+    background-color: #0f0d19;
     border-radius: 20px;
     padding: 1.25rem 1.5rem;
     min-height: 280px;
@@ -682,6 +682,7 @@ h6 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 1px 2px 1px rgba(255, 255, 255, 0.5);
     
 }
 
@@ -781,3 +782,47 @@ h6 {
 }
 
 
+.tech-stack{
+    background-color: rgba(132, 71, 141, 0.5);
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px 6px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 1px 2px 1px rgba(92, 14, 107, 0.335) ;
+}
+
+.tech-stack:hover{
+    background-color: rgba(31, 52, 37, 0.787);
+}
+.tech-stack-project{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-description{
+    font-size: 12px;
+    font-weight: 20;
+    color: white;
+}
+
+.project-link{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.project-link-items{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-image-container{
+    /* border: 1px solid pink; */
+    width: 100%;
+}
+.project-intro{
+    /* border: 1px solid green; */
+}
