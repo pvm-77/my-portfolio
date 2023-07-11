@@ -826,3 +826,17 @@ h6 {
 .project-intro{
     /* border: 1px solid green; */
 }
+
+/* skill section */
+.technologies{
+    border: 1px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    /* border: 1px solid forestgreen; */
+    padding: 12px 14px ;
+    margin: 2rem;
+    background-color: rgba(35,37,49,0.5);
+    box-shadow: 1px 2px 1px rgba(155,155,155,0.6);
+}
