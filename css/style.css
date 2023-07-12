@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
-/* CSS RESET START */
-
-/* Box sizing rules */
 *,
 *::before,
 *::after {
@@ -14,99 +10,13 @@
   color-scheme: dark;
 }
 
-/* Remove default margin */
-/* body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-dl,
-figure,
-blockquote,
-fieldset,
-legend {
-    margin: 0;
-} */
-
-/* Remove default padding */
-/* ul,
-ol {
-    padding: 0;
-} */
-
-/* Remove list styles */
-/* ul,
-ol {
-    list-style: none;
-} */
-
-/* Remove border */
-/* a,
-area,
-button,
-input,
-select,
-textarea,
-iframe,
-hr,
-pre,
-blockquote,
-figure,
-img,
-table,
-fieldset {
-    border: 0;
-    vertical-align: baseline;
-} */
-
-/* Typography */
-/* html {
-    
-    font-size: 16px;
-    font-family: sans-serif;
-} */
-
-body {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: inherit;
-} */
-
-/* Remove links underline */
-/* a {
-    text-decoration: none;
-    color: inherit;
-} */
-
-/* Remove focus outline */
-/* :focus {
-    outline: none;
-} */
-
-/* CSS RESET END */
-
 .header {
-  /* border: 2px solid red; */
   position: relative;
   z-index: 0;
   background-color: black;
 }
 
 .header-container {
-  /* border: 3px dotted chocolate; */
   background-image: url("../img/fav.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,7 +34,6 @@ h6 {
   display: flex;
   background-color: transparent;
   z-index: 20;
-  /* border: 1px solid green; */
   height: 72px;
 }
 .navbar-bg-dark {
@@ -134,7 +43,6 @@ h6 {
   background-color: transparent;
 }
 .navbar-container {
-  /* border: 1px dotted red; */
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -167,16 +75,12 @@ h6 {
 }
 
 .navbar-brand {
-  /* border: 1px solid violet; */
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-/* navbar logo start here */
-/* default css */
 .navbar-logo {
-  /* border: 1px dotted white; */
   width: 27px;
   height: 27px;
   object-fit: contain;
@@ -206,7 +110,6 @@ h6 {
 /* navbar logo end here */
 
 .navbar-logo-text {
-  /* border: 1px dotted cyan; */
   color: #6b46c1;
   font-size: 18px;
   font-weight: bold;
